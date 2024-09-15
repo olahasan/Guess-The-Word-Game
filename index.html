@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- next meta, tells the browser to use the most modern version, standards-compliant rendering mode available -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <h1></h1>
+
+    <div class="guess-game">
+      <div class="game-area">
+        <div class="inputs"></div>
+
+        <div class="control">
+          <button class="check">Check Word</button>
+          <button class="hint"><span></span> Hints</button>
+        </div>
+
+        <div class="message"></div>
+      </div>
+
+      <div class="key-colors">
+        <h2>Key Colors</h2>
+
+        <div class="key-color">
+          <div class="key in-place"></div>
+          <div class="key-text">Letter Is Correct and In Place</div>
+        </div>
+        <div class="key-color">
+          <div class="key not-in-place"></div>
+          <div class="key-text">Letter Is Correct But Not In Place</div>
+        </div>
+        <div class="key-color">
+          <div class="key no"></div>
+          <div class="key-text">Letter Is Wrong</div>
+        </div>
+      </div>
+    </div>
+
+    <footer></footer>
+
+    <audio class="myAudiocongratulations" controls hidden>
+      <source
+        src="audio/mixkit-game-level-completed-2059_1.mp3"
+        type="audio/mp3"
+      />
+      Your browser does not support the audio element.
+    </audio>
+
+    <audio class="myAudioGameOver" controls hidden>
+      <source src="audio/mixkit-falling-game-over-1942.mp3" type="audio/mp3" />
+      Your browser does not support the audio element.
+    </audio>
+
+    <script src="main2.js"></script>
+  </body>
+</html>
