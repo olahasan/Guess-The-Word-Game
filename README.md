@@ -36,7 +36,7 @@ Otherwise, all links will open in the same tab.
 
 - Solution URL: [here](https://github.com/olahasan/Guess-The-Word-Game)
 
-- Live Site URL: [here]()
+- Live Site URL: [here](https://olahasan.github.io/Guess-The-Word-Game/)
 
 ## Screenshot
 
